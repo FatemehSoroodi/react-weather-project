@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
@@ -27,13 +28,14 @@ export default function Weather() {
         <div className="col-6">Wind speed: 2 km/h</div>
       </div>
       <form className="mb-3">
-        <div className="row">
+        <div className="row mt-3">
           <div className="col-2"></div>
           <div className="col-5">
             <input
               type="search"
               placeholder="Type a city.."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
