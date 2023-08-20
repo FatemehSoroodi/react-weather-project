@@ -29,7 +29,7 @@ export default function FormattedDate(props) {
   let month = months[props.date.getMonth()];
   return (
     <div>
-      {day}, {currentDay} {month}
+      {day}, {month} {currentDay}
     </div>
   );
 }
