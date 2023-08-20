@@ -26,7 +26,7 @@
 }
 
 .Weather sup {
-  top: -0.3em;
+  top: -0.8em;
 }
 
 .Weather .temperature {
@@ -34,7 +34,7 @@
   font-weight: 700px;
 }
 .Weather .unit {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700px;
 }
 .Weather .search {
