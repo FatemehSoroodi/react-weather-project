@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./WeatherForecast.css";
 import axios from "axios";
 import ForecastDay from "./ForecastDay";
+import Lodder from "./Lodder";
 
 export default function WeatherForecast(props) {
   let [loaded, setLoaded] = useState(false);
@@ -42,6 +43,10 @@ export default function WeatherForecast(props) {
 
     axios.get(apiUrl).then(handleResponse);
 
-    return "Loading..";
+    return (
+      <div className="d-flex justify-content-center">
+        <Lodder />
+      </div>
+    );
   }
 }

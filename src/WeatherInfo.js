@@ -19,7 +19,7 @@ export default function WeatherInfo(props) {
         <WeatherTemperature celsius={Math.round(props.info.temperature)} />
       </div>
       <h5>{props.info.description}</h5>
-      <div className="weather-icon">
+      <div className="weather-icon ">
         <img src={props.info.iconUrl} alt={props.info.description} />
       </div>
       <div className="row">
