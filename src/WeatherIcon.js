@@ -22,12 +22,23 @@ export default function WeatherIcon(props) {
     "mist-day": "WIND",
     "mist-night": "WIND",
   };
-  return (
-    <ReactAnimatedWeather
-      icon={codeMapping[props.code]}
-      color="#fac70b"
-      size={52}
-      animate={true}
-    />
-  );
+  if (props.code === "clear-sky-day") {
+    return (
+      <ReactAnimatedWeather
+        icon={codeMapping[props.code]}
+        color="#fac70b"
+        size={props.size}
+        animate={true}
+      />
+    );
+  } else {
+    return (
+      <ReactAnimatedWeather
+        icon={codeMapping[props.code]}
+        color="#FAF8F5"
+        size={props.size}
+        animate={true}
+      />
+    );
+  }
 }
