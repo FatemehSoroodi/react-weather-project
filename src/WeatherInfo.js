@@ -23,8 +23,12 @@ export default function WeatherInfo(props) {
         <img src={props.info.iconUrl} alt={props.info.description} />
       </div>
       <div className="row">
-        <div className="col-6">Humidity: {props.info.humidity}%</div>
-        <div className="col-6">Wind speed: {props.info.wind} km/h</div>
+        <div className="col-6 description">
+          Humidity: {props.info.humidity}%
+        </div>
+        <div className="col-6 description">
+          Wind speed: {props.info.wind} km/h
+        </div>
       </div>
     </div>
   );

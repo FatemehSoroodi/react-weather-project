@@ -8,3 +8,9 @@
   opacity: 0.83;
   margin-left: 5px;
 }
+
+@media (max-width: 390px) {
+  .forecastTemperature-min {
+    margin-left: 0;
+  }
+}

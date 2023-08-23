@@ -50,3 +50,21 @@
   border-color: transparent;
   background-color: #fac70b;
 }
+
+@media (max-width: 390px) {
+  .Weather h1 {
+    font-size: 40px;
+  }
+  .Weather h5 {
+    font-weight: 400;
+  }
+
+  .Weather .description {
+    font-size: 12px;
+  }
+  .Weather .search {
+    font-weight: 300;
+    font-size: 14px;
+    padding-right: 58px;
+  }
+}
