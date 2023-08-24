@@ -51,7 +51,7 @@
   background-color: #fac70b;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 490px) {
   .Weather h1 {
     font-size: 40px;
   }
