@@ -52,6 +52,9 @@
 }
 
 @media (max-width: 490px) {
+  .Weather {
+    margin-top: 35px;
+  }
   .Weather h1 {
     font-size: 40px;
   }
@@ -62,9 +65,15 @@
   .Weather .description {
     font-size: 12px;
   }
+  .Weather form {
+    margin-top: 40px;
+  }
   .Weather .search {
     font-weight: 300;
     font-size: 14px;
     padding-right: 58px;
+  }
+  .Weather .form-control {
+    font-size: 14px;
   }
 }
