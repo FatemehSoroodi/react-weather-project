@@ -10,6 +10,9 @@
 }
 
 @media (max-width: 490px) {
+  .WeatherForecast {
+    margin-top: 50px;
+  }
   .forecastTemperature-min {
     margin-left: 0;
   }
